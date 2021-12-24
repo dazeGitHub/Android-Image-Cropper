@@ -50,6 +50,7 @@ open class CropImageActivity2 : AppCompatActivity(), OnSetImageUriCompleteListen
         setContentView(R.layout.activity_crop_image2)
         initBundle()
         initClickListener()
+        con_flip.visibility = View.GONE
         mCropImageView = cropImageView.apply {
             this.setImageUriAsync(Uri.parse("file://$mImgPathStr"))
         }

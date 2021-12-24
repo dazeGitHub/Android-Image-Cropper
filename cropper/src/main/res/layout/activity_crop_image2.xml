@@ -27,6 +27,7 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:elevation="20dp"
+        android:visibility="gone"
         android:background="@drawable/crop_option_shadow">
 
         <androidx.constraintlayout.widget.ConstraintLayout
